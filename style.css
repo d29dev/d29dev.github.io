@@ -1,0 +1,126 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+    --primary: #4be;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", monospace, serif;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+    
+}
+
+body {
+    width: 100%;
+    display: flex;
+
+    background: linear-gradient(44deg, #fff, #4be, #000, #4be, #fff) no-repeat center / cover;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.container {
+    width: clamp(200px, 600px, 100%);
+    /* padding: 20px; */
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .avt {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    background: url(avt.jpg) no-repeat center / cover;
+}
+
+.header .name {
+    margin: 8px 0;
+}
+
+.body {
+    padding: 20px;
+}
+
+.box-social-media {
+
+}
+
+.box {
+    margin: 16px 0;
+}
+
+.box .item {
+    height: 40px;
+    margin: 4px 0;
+    color: #000;
+    background: #fff8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.box .item a {
+    font-size: 16px;
+}
+
+.box-social-media .item span {
+    margin-left: 20px;
+}
+
+.box .title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.box-contact input,
+.box-contact textarea,
+.box-contact button{
+    outline: 0;
+    width: 100%;
+    display: block;
+    margin: 4px 0;
+    border: 0;
+    font-size: 20px;
+}
+
+.box-contact input,
+.box-contact button {
+    height: 40px;
+    padding: 0 20px;
+}
+
+.box-contact textarea {
+    resize: vertical;
+    padding: 20px;
+    height: 200px;
+}
+
+.footer {}
+.cpr {
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+}
